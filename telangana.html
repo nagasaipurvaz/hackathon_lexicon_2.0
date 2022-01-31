@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+    'menu main main main main main'
+    'menu main main main main main'
+    ;
+  grid-gap: 5px;
+  background-color: #2beba1;
+  padding: 5px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<style>
+    body{
+        color:rgb(255, 0, 191);
+    }
+h1{
+    color: rgb(0, 0, 0);
+}
+p{
+    color: rgb(235, 14, 14);
+}
+bold{
+  color: black;
+}
+</style>
+<h1 style="font-size: 50px;">
+<center>TELANGANA
+</center>
+</h1>
+<div class="grid-container">
+  <div class="item1" style="font-size: 40px;" style="font: bolder;">Crops Details Of Talangana
+  </div>
+  <div class="item2">
+    <img src="talangana.jpg" width="500" height="500">
+  </div>
+  <div class="item3"><p>Telangana state has considered agriculture
+       as its primary goal to improve farmer community wellness, educate
+        on latest technical farming knowledge, train framers to boost the
+         agricultural production and productivity. In three major zones
+          namely, Northern Zone, Central Zone and Southern Zone.Crops that
+           are grown in Telangana are<bold> Rice, Maize/ Corn, Red Gram, Green Gram,
+            Jowar, Sesame, Castor, Cotton, Groundnut, Soyabean ,
+          Black Gram </bold>to mention a few.</p>
+        <p> Telangana is in the rice bowl of South India, and RICE is cultivated 
+            in about 44 lakh acres. In the recent 
+            climatic changes have greatly influenced the amount rainfall, due
+             to which the area cultivated with RICE has decreased.
+        </p>
+        </div> 
+        <div id="google_translate_element"></div>
+        <script type="text/javascript">
+          function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+          }
+          </script>
+          
+          <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</div>
+</body>
+</html>

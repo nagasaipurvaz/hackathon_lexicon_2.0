@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+    'menu main main main main main'
+    'menu main main main main main'
+    ;
+  grid-gap: 5px;
+  background-color: #2beba1;
+  padding: 5px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<style>
+    body{
+        color:rgb(255, 0, 191);
+    }
+h1{
+    color: rgb(0, 0, 0);
+}
+p{
+    color: rgb(235, 14, 14);
+}
+bold{
+  color: black;
+}
+</style>
+<h1 style="font-size: 50px;">
+<center>GUJARAT
+</center>
+</h1>
+<div class="grid-container">
+  <div class="item1" style="font-size: 40px;" style="font: bolder;">Crops Details Of Gujarat
+  </div>
+  <div class="item2">
+    <img src="ap.jpg" width="500" height="500">
+  </div>
+  <div class="item3"><p>Gujarat is the largest producer of 
+    major cash crop like ,<bold> cotton, groundnut, tobacco, cumin, 
+    sesamum,etc.</bold> in India. Other major crops produced are<bold>
+    Rice, Wheat, Jowar, Bajra, Maize,Tur, and Gram.</bold> Gujarat
+    has an agricultural economy the total crop area amounts
+    to more than one-half of the total land area.</p>
+        <p> The economy of Gujarat, a state in Western India,
+            has significant agricultural as well as industrial
+            production within India. Major agricultural produce
+            of the state includes<bold> cotton, groundnuts (peanuts),
+            es, sugar cane, milk and milk products. Gujarat is one
+            of the most industrialised states, with significant 
+            presence in pharma, chemicals, refining and
+            petrochemicals, ceramics, textiles, automobile etc. 
+            sectors.</bold> Gujarat recorded the lowest unemployment
+            rate in India in 2015, with 1.2% of the labour force
+            being unemployed.
+        </p>
+        </div> 
+        <div id="google_translate_element"></div>
+        <script type="text/javascript">
+          function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+          }
+          </script>
+          
+          <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</div>
+
+</body>
+</html>
